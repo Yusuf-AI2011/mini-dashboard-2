@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat";
+
+  font-weight: 900;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  background: linear-gradient(180deg, 0% 50% #000, 50% 100% #fff);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+::placeholder {
+  color: #ffffff;
+}

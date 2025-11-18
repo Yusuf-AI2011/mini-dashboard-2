@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/normolize.css" />
+  </head>
+  <body>
+    <header class="head">
+      <h1 class="head__logo">Dashboard</h1>
+
+      <ul class="head__list">
+        <li class="head__item">
+          <a href="" class="head__link">Home</a>
+        </li>
+        <li class="head__item">
+          <a href="" class="head__link">About Us</a>
+        </li>
+        <li class="head__item">
+          <a href="" class="head__link">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <main class="main">
+      <section>
+        <div class="main__cards">
+          <div class="main__card">
+            <input type="text" placeholder="Name" class="main__input name" />
+          </div>
+          <div class="main__card">
+            <input type="number" placeholder="Age" class="main__input date" />
+          </div>
+          <div class="main__card">
+            <input type="email" placeholder="Email" class="main__input email" />
+          </div>
+          <div class="main__card">
+            <input type="text" placeholder="Hobby" class="main__input hobby" />
+          </div>
+          <div class="main__card">
+            <input type="text" placeholder="Gender" class="main__input gender">
+        </div>
+      </section>
+      <section>
+        <div class="main__resultCards">
+          <div class="main__resultCard">
+            <p class="main__resultText">
+              Your name: <span class="main__resultAnswer main__resultName"></span>
+            </p>
+          </div>
+          <div class="main__resultCard">
+            <p class="main__resultText">
+              You're: <span class="main__resultAnswer main__resultDate"></span>
+            </p>
+          </div>
+          <div class="main__resultCard">
+            <p class="main__resultText">
+              Email: <span class="main__resultAnswer main__resultEmail"></span>
+            </p>
+          </div>
+          <div class="main__resultCard">
+            <p class="main__resultText">
+              Hobby: <span class="main__resultAnswer main__resultHobby"></span>
+            </p>
+          </div>
+          <div class="main__resultCard">
+            <p class="main__resultText">
+              Gender: <span class="main__resultAnswer main__resultGender"></span>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="buttons">
+          <button class="button save">Save Profile</button>
+          <button class="button clear">Clear</button>
+        </div>
+    <footer class="footer">
+      <p class="footer__text">© 2025, dashboard</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
